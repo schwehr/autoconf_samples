@@ -17,3 +17,10 @@ AC_CONFIG_FILES([Makefile])
 AC_CONFIG_HEADERS([config.h])
 
 AC_OUTPUT
+
+AS_ECHO
+AS_ECHO([Results])
+AS_ECHO
+AS_ECHO(["$PACKAGE_STRING will be installed in: ${prefix}"])
+AS_ECHO(["Use shared libs: $enable_shared"])
+AS_ECHO(["Use static libs: $enable_static"])
